@@ -4,7 +4,7 @@ const StoryblokClient = require('storyblok-js-client')
 
 // Initialize the client with the oauth token
 const Storyblok = new StoryblokClient({
-  oauthToken: 'EK1BoH1ZooDj0CpXye8Mywtt' // can be found in your My account section PUBLIC TOKEN
+  oauthToken: '15FsG6X53D3muRDNeTztMgtt-239478-H8h1kL_1oy6q8xyo_95x' // can be found in your My account section PUBLIC TOKEN
 })
 
 const config = {
