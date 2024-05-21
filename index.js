@@ -8,7 +8,7 @@ const Storyblok = new StoryblokClient({
 })
 
 const config = {
-  spaceId: '#287314', // can be found in the space settings.
+  spaceId: '287314', // can be found in the space settings.
   parentFolder: '499734286' // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
 }
 
