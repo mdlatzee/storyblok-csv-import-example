@@ -12,7 +12,7 @@ const config = {
   parentFolder: '499734286' // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
 }
 
-let stream = fs.createReadStream('${workspaceFolder}/demo.csv')
+let stream = fs.createReadStream('demo.csv')
 
 csvReader.parseStream(stream, { headers: true, delimiter: ';' })
   .on('data', (line) => {
