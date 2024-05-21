@@ -12,6 +12,9 @@
             "webRoot": "${workspaceFolder}"
         },
 
+
+
+
         {
             "name": "Launch via NPM",
             "request": "launch",
@@ -29,7 +32,7 @@
         {
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js",
-            "request": "launch",
+            "request": "node index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ],
