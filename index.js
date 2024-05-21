@@ -4,12 +4,12 @@ const StoryblokClient = require('storyblok-js-client')
 
 // Initialize the client with the oauth token
 const Storyblok = new StoryblokClient({
-  oauthToken: 'YOUR_OAUTH_TOKEN' // can be found in your My account section
+  oauthToken: 'EK1BoH1ZooDj0CpXye8Mywtt' // can be found in your My account section PUBLIC TOKEN
 })
 
 const config = {
-  spaceId: 'YOUR_SPACE_ID', // can be found in the space settings.
-  parentFolder: 'YOUR_NUMERIC_FOLDER_ID' // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
+  spaceId: '#287314', // can be found in the space settings.
+  parentFolder: '499734286' // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
 }
 
 let stream = fs.createReadStream('demo.csv')
